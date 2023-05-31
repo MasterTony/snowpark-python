@@ -52,7 +52,7 @@ def get_snowpark_session() -> Session:
 # need to update snowcli to make that happen
 def get_snowsql_config(
     connection_name: str = 'dev',
-    config_file_path: str = os.path.expanduser('~/.snowsql/config'),
+    config_file_path: str = os.path.expanduser('C:/Users/Tony/.snowsql/config'),
 ) -> dict:
     import configparser
 
